@@ -1,3 +1,40 @@
 body {
     background-color: beige;
 }
+#container {
+    width: 100vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#graphic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vw;
+    background-image: url(./diner-2009.jpg);
+    background-size: cover;
+}
+#form {
+    font-family: 'PT Serif Caption', serif;
+    color: rgb(214, 114, 101);
+    font-size: 1.1vw;
+    margin-top: 15vh;
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5vw;
+}
+#logo {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.5047152650122548) 50%, rgba(255,255,255,0) 100%); 
+}
+#logo h1 {
+    margin-top: 12vh;
+    font-family: 'Caprasimo', serif;
+    font-size: 5vw;
+    color: beige;
+    text-align: center;
+}
