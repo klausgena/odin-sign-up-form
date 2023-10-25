@@ -16,17 +16,25 @@ body {
     background-image: url(./diner-2009.jpg);
     background-size: cover;
 }
-#form {
-    font-family: 'PT Serif Caption', serif;
-    color: rgb(214, 114, 101);
-    font-size: 1.1vw;
-    margin-top: 15vh;
+div#form-div {
+    margin-top: 12vh;
     display: flex;
     width: 40vw;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
+}
+#form-div h2 {
+    font-family: 'Caprasimo', serif;
+    color: rgb(214, 114, 101);
+    font-size: 2vw;
     padding-left: 5vw;
 }
+
+#form ul, div#button, div#footer-2 {
+    padding-left: 5vw;
+}
+
+
 #logo {
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0.5047152650122548) 50%, rgba(255,255,255,0) 100%); 
@@ -37,4 +45,13 @@ body {
     font-size: 5vw;
     color: beige;
     text-align: center;
+}
+ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: "PT Serif Caption", serif;
 }
