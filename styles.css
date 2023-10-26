@@ -27,7 +27,7 @@ div#form-div {
 #form-div h2 {
     font-family: 'Caprasimo', serif;
     color: rgb(214, 114, 101);
-    font-size: 2vw;
+    font-size: calc(10px + 2vw);
     padding-left: 5vw;
 }
 
@@ -47,7 +47,7 @@ div#form {
 #logo h1 {
     margin-top: 12vh;
     font-family: 'Caprasimo', serif;
-    font-size: 5vw;
+    font-size: calc(16px + 5vw);
     color: beige;
     text-align: center;
 }
@@ -59,4 +59,6 @@ ul li {
 
 label {
     font-family: "PT Serif Caption", serif;
+    font-variant-caps: all-small-caps;
+    color: beige;
 }
