@@ -20,8 +20,9 @@ body {
 div#form-div {
     margin-top: 12vh;
     display: flex;
-    flex: 0 1 50%;
+    flex: 0.8 1 50%;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: start;
 }
 #form-div h2 {
@@ -30,6 +31,9 @@ div#form-div {
     font-size: calc(10px + 2vw);
     padding-left: 5vw;
 }
+div#shout-out {
+    padding-right: 5vw;
+}
 
 div#footer-2 {
     padding-left: 5vw;
@@ -37,7 +41,8 @@ div#footer-2 {
 
 div#form {
     background-color: rgb(214, 114, 101);
-    margin-left: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 #logo {
@@ -50,6 +55,11 @@ div#form {
     font-size: calc(16px + 5vw);
     color: beige;
     text-align: center;
+    padding: 0 1ch 0 1ch;
+}
+ul {
+    padding: 0;
+    margin: 0;
 }
 ul li {
     list-style: none;
@@ -61,4 +71,8 @@ label {
     font-family: "PT Serif Caption", serif;
     font-variant-caps: all-small-caps;
     color: beige;
+}
+
+i {
+    text-decoration: underline;
 }
