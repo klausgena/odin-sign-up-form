@@ -63,8 +63,11 @@ div#form {
     background: linear-gradient(180deg, rgba(0,0,0,0.5047152650122548) 50%, rgba(255,255,255,0) 100%); 
 }
 #logo img {
-    max-width: calc(16px + 3.5vw);
-    max-height: calc(16px + 3.5vw);
+    position: relative;
+    top: 0.3vw;
+    right: 0.3vw;
+    max-width: calc(12px + 3vw);
+    max-height: calc(12px + 3vw);
 }
 #logo h1 {
     margin-top: 12vh;
